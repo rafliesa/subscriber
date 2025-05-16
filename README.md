@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/682fe319-1b91-4524-a724-a524011e5053)## a. What is amqp?
+## a. What is amqp?
 AMQP (Advanced Message Queuing Protocol) adalah protokol komunikasi standar terbuka yang dirancag untuk memungkinkan pertukaran pesan secara handal antar aplikasi atau komponen sistem. Protokol ini berperan sebagai middleware untuk komunikasi asinkron dan memungkinkan berbagai aplikasi bertukar informasi tanpa harus terhubung secara langsung. AMQP mendukung beragam pola komunikasi, seperti publish/subscribe, point-to-point, dan routing berbasis topik. Selain itu, AMQP menyediakan fitur-fitur penting seperti transaksi, konfirmasi pengiriman, dan sistem antrian yang tangguh. Beberapa implementasi populer dari AMQP antara lain RabbitMQ, ActiveMQ, dan Apache Qpid, yang memungkinkan sistem terdistribusi berkomunikasi secara efisien, meskipun ditulis dalam bahasa pemrograman atau berjalan di platform yang berbeda.
 
 ## b. What does it mean? guest:guest@localhost:5672 , what is the first guest, and what is the second guest, and what is localhost:5672 is for?
