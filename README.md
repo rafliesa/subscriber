@@ -9,3 +9,7 @@ String koneksi "amqp://guest:guest@localhost:5672" merupakan URI (Uniform Resour
 ![image](https://github.com/user-attachments/assets/f445ff7e-8831-48e9-83d8-678bb08387c9)
 Jumlah antrean yang terlihat sebagai 2 pada RabbitMQ menunjukkan bahwa ada dua antrean aktif di sistem. Ini bisa terjadi karena pembuatan dua antrean berbeda selama pengujian atau karena subscriber terhubung ke antrean berbeda. Angka ini menunjukkan jumlah antrean, bukan jumlah pesan di dalamnya.
 
+## 3 Subscriber
+![image](https://github.com/user-attachments/assets/c9bebfb2-3f53-4eb8-bb0b-70b347c98f28)
+![image](https://github.com/user-attachments/assets/f4ebf00b-edaa-4e67-b980-041206a505e5)
+Pada gambar pertama, grafik antrean menunjukkan peningkatan kecepatan dengan 3 subscriber, sehingga jumlah pesan dalam antrean menurun signifikan. Gambar kedua memperlihatkan bahwa broker membagikan pesan berbeda ke setiap subscriber, dan pesan yang diambil dihapus dari antrean.
